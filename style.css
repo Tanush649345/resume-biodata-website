@@ -32,3 +32,6 @@ th{width:35%;color:var(--mute);font-weight:600}
 footer{text-align:center;color:var(--mute);padding:1.5rem;font-size:.9rem}
 @media(max-width:600px){.hero{grid-template-columns:1fr;text-align:center}.avatar{margin:auto}h1{font-size:1.9rem}}
 @media print{header,footer,button{display:none}body{background:#fff;color:#000}.card{border:0;padding:0}}
+img.avatar{object-fit:cover;border:4px solid var(--card);box-shadow:0 0 0 3px var(--accent)}
+.photo{float:right;width:120px;height:120px;border-radius:8px;object-fit:cover;margin:0 0 1rem 1rem;border:1px solid var(--line)}
+a.btn{text-decoration:none}
